@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applicants_2021",
+  "info": {
+    "singularName": "applicant-2021",
+    "pluralName": "applicants-2021",
+    "displayName": "applicant 2021",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "sid": {
+      "type": "string",
+      "required": true
+    },
+    "major": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "regex": "/^010\\d{8}$/",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "motive": {
+      "type": "richtext",
+      "required": true
+    },
+    "wannaMake": {
+      "type": "richtext",
+      "required": true
+    },
+    "projectExperience": {
+      "type": "richtext",
+      "required": true
+    },
+    "overcomeExperience": {
+      "type": "richtext",
+      "required": true
+    },
+    "goals": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
