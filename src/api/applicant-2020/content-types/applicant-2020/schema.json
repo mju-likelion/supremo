@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applicants_2020",
+  "info": {
+    "singularName": "applicant-2020",
+    "pluralName": "applicants-2020",
+    "displayName": "Applicant 2020",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "sid": {
+      "type": "string",
+      "required": true
+    },
+    "grade": {
+      "type": "integer",
+      "required": true
+    },
+    "college": {
+      "type": "string",
+      "required": true
+    },
+    "major": {
+      "type": "string",
+      "required": true
+    },
+    "motive": {
+      "type": "richtext",
+      "required": true
+    },
+    "spec": {
+      "type": "richtext",
+      "required": true
+    },
+    "activity": {
+      "type": "richtext",
+      "required": true
+    },
+    "experience": {
+      "type": "richtext",
+      "required": true
+    },
+    "wannaMake": {
+      "type": "richtext"
+    }
+  }
+}
