@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "managers_10",
+  "info": {
+    "singularName": "manager-10",
+    "pluralName": "managers-10",
+    "displayName": "10기 운영진",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "json",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "regex": "^010\\d{8}$",
+      "required": true
+    },
+    "personalEmail": {
+      "type": "email",
+      "required": true
+    },
+    "likelionEmail": {
+      "type": "email",
+      "required": true
+    },
+    "birthday": {
+      "type": "date",
+      "required": true
+    },
+    "school": {
+      "type": "string",
+      "required": true
+    },
+    "major": {
+      "type": "string",
+      "required": true
+    },
+    "sid": {
+      "type": "string"
+    }
+  }
+}
