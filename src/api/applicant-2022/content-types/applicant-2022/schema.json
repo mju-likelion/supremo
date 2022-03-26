@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applicants_2022",
+  "info": {
+    "singularName": "applicant-2022",
+    "pluralName": "applicants-2022",
+    "displayName": "Applicant 2022",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "phone": {
+      "type": "string",
+      "regex": "^010\\d{8}$",
+      "required": true
+    },
+    "major": {
+      "type": "string",
+      "required": true
+    },
+    "part": {
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "server",
+        "design"
+      ],
+      "required": true
+    },
+    "whyLikeLion": {
+      "type": "richtext",
+      "required": true
+    },
+    "partExperience": {
+      "type": "richtext",
+      "required": true
+    },
+    "teamworkExperience": {
+      "type": "richtext",
+      "required": true
+    },
+    "timeInvestment": {
+      "type": "richtext",
+      "required": true
+    },
+    "nonTechGoals": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
